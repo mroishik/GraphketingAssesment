@@ -1,5 +1,3 @@
-// siteModel.js
-
 const mongoose = require("mongoose");
 
 const siteSchema = new mongoose.Schema({

@@ -1,5 +1,3 @@
-// electricianController.js
-
 const Electrician = require("../models/electricianModel");
 
 // Controller function to add a new electrician

@@ -1,5 +1,3 @@
-// electricianModel.js
-
 const mongoose = require("mongoose");
 
 const electricianSchema = new mongoose.Schema({
