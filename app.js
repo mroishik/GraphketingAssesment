@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const electricianRoutes = require("./routes/electricianRoutes");
 const siteRoutes = require("./routes/siteRoutes");
+const distributionRoutes = require("./routes/distributionRoutes");
 
 // Initialize Express app
 const app = express();
@@ -29,6 +30,7 @@ app.use(express.json());
 // Routes
 app.use("/routes/electricianRoutes", electricianRoutes);
 app.use("/routes/siteRoutes", siteRoutes);
+app.use("/routes/distributionRoutes", distributionRoutes);
 
 // Error handling middleware
 app.use((err, req, res, next) => {

@@ -4,6 +4,6 @@ const fairDistributionAlgorithm = require("../utils/fairDistributionAlgorithm");
 
 // Route: GET /api/distribute-sites
 // Description: Trigger the optimal distribution of sites algorithm
-router.get("/distribute-sites", fairDistributionAlgorithm);
+router.get("/", fairDistributionAlgorithm);
 
 module.exports = router;
