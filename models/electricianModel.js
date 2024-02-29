@@ -10,7 +10,6 @@ const electricianSchema = new mongoose.Schema({
     enum: ["active", "inactive"],
     default: "active",
   },
-  // Add any other relevant fields here
 });
 
 const Electrician = mongoose.model("Electrician", electricianSchema);
