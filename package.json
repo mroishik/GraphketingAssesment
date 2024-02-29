@@ -1,0 +1,16 @@
+{
+  "name": "graphketing",
+  "version": "1.0.0",
+  "description": "This the Assesment of Graphketing of allocation sys",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oishik Dutta",
+  "license": "ISC",
+  "dependencies": {
+    "Express": "^3.0.1",
+    "mongoose": "^8.2.0",
+    "nodemon": "^3.1.0"
+  }
+}
